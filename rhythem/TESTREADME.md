@@ -1,1 +1,3 @@
-This is a test line
+**This is a bold line**
+**Bold** *Italics* Normal
+**Rhythem**
