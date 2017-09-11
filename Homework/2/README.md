@@ -48,7 +48,7 @@ F). [CuriousJr101/Git/ICP2017F/Homework/2/]
  						create mode 100644 Homework/2/test.txt
 
 	4). Command: git push origin test2 || Output: 	Delta compression using up to 4 threads.
-							Compressing objects: 100% (3/3), done.
+                                                    	Compressing objects: 100% (3/3), done.
 							Writing objects: 100% (4/4), 361 bytes | 361.00 KiB/s, done.
 							Total 4 (delta 1), reused 0 (delta 0)
 							remote: Resolving deltas: 100% (1/1), completed with 1 local object.
@@ -57,4 +57,24 @@ F). [CuriousJr101/Git/ICP2017F/Homework/2/]
 
 G).
 
-	1). Command: git checkout test1 || 
+    1). Command: git checkout test1 || Output:  error: Your local changes to the following files would be overwritten by checkout:
+                                                Homework/2/test.txt
+                                                Please commit your changes or stash them before you switch branches.
+                                                Aborting
+
+    [Branch 2]
+    2). Command: git add . || Output: -
+
+    3). Command: git commit -a || Output:   [test2 f38dbec] test.txt for test2
+                                            2 files changed, 8 insertions(+), 4 deletions(-)
+
+    4). Command: git push origin test2 || Output:   Counting objects: 10, done.
+                                                    Delta compression using up to 4 threads.
+                                                    Compressing objects: 100% (7/7), done.
+                                                    Writing objects: 100% (10/10), 1.04 KiB | 1.04 MiB/s, done.
+                                                    Total 10 (delta 3), reused 0 (delta 0)
+                                                    remote: Resolving deltas: 100% (3/3), completed with 2 local objects.
+                                                    To https://github.com/CuriousJr101/ICP2017F.git
+                                                    fd1a387..f38dbec  test2 -> test2
+
+    5). Command git checkout test1 || Output: Switched to branch 'test1'
