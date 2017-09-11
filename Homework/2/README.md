@@ -1,5 +1,4 @@
 A).
-
         1). Command: git branch test1 || Output: -
 
         2). Command: git branch test2 || Output: -
@@ -78,3 +77,4 @@ G).
                                                     fd1a387..f38dbec  test2 -> test2
 
     5). Command git checkout test1 || Output: Switched to branch 'test1'
+
