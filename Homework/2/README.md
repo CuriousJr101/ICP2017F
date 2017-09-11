@@ -78,3 +78,10 @@ G).
 
     5). Command git checkout test1 || Output: Switched to branch 'test1'
 
+H). 
+
+    1). Command: git merge test1 || Output: Auto-merging Homework/2/README.md
+                                            CONFLICT (content): Merge conflict in Homework/2/README.md
+                                            Automatic merge failed; fix conflicts and then commit the result.
+
+
