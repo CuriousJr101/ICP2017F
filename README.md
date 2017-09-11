@@ -16,7 +16,7 @@
 
 **Course Webpage:** http://www.shahmoradi.org/ICP2017F/
 
-**Photo:** 
+**Photo:** ![Rhythem Sharma](https://github.com/CuriousJr101/ICP2017F/blob/master/Rhythem%20Sharma.jpg)
 
 # Description of the project's content
 
