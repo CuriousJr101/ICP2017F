@@ -84,4 +84,16 @@ H).
                                             CONFLICT (content): Merge conflict in Homework/2/README.md
                                             Automatic merge failed; fix conflicts and then commit the result.
 
+I). [CuriousJr101/Git/ICP2017F/Homework/2/] (Master Branch)
+
+	1). Command: ls || Output: README.md	test.txt
+
+J). 
+
+	1). Command: git merge test2 || Output: 	error: Your local changes to the following files would be overwritten by merge:
+							Homework/2/README.md
+							Please commit your changes or stash them before you merge.
+							Aborting
+
+
 
