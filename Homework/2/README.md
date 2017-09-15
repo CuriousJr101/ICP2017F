@@ -1,8 +1,8 @@
 A).
     
-    1). Command: git branch test1 || Output: -
+    1). Command: `git branch test1` || Output: -
 
-    2). Command: git branch test2 || Output: -
+    2). Command: `git branch test2` || Output: -
 
 B).
 
