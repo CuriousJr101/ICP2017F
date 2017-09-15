@@ -199,6 +199,15 @@ T).
 
     3). Command: git push --all || Output: Everything up-to-date
 
+(To delete the branches in the remote repository since it wasnt with the git push)
+    
+    4). Command: git push origin :test2 || Ouput:   To https://github.com/CuriousJr101/ICP2017F.git
+                                                    - [deleted]         test2 
+
+    5). Command: git push origin :test1 || Output:  To https://github.com/CuriousJr101/ICP2017F.git
+                                                    - [deleted]         test1
+
+
 
 
 
