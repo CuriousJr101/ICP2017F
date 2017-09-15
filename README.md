@@ -22,7 +22,7 @@
 
 This repository contains my homework, quizzes, and virtually ever effort I have made for [ICP2017F class](http://www.shahmoradi.org/ICP2017F/). The structure of the project is the following:
 
-* ![**Homework:**] (https://github.com/CuriousJr101/ICP2017F/tree/master/Homework) This directory contains all my homework submissions, each of which is a folder properly named with homework number, containing the homework submission.
+* !**[Homework] (https://github.com/CuriousJr101/ICP2017F/tree/master/Homework):** This directory contains all my homework submissions, each of which is a folder properly named with homework number, containing the homework submission.
 
 * ![**Quiz:**] (https://github.com/CuriousJr101/ICP2017F/tree/master/Exam/) This directory contains all my quiz submissions, each of which is a folder properly names with quiz number, containing the quiz submission.
 
