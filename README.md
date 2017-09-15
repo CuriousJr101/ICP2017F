@@ -24,9 +24,9 @@ This repository contains my homework, quizzes, and virtually ever effort I have 
 
 * **[Homework](https://github.com/CuriousJr101/ICP2017F/tree/master/Homework):** This directory contains all my homework submissions, each of which is a folder properly named with homework number, containing the homework submission.
 
-* ![**Quiz:**] (https://github.com/CuriousJr101/ICP2017F/tree/master/Exam/) This directory contains all my quiz submissions, each of which is a folder properly names with quiz number, containing the quiz submission.
+* **[Quiz](https://github.com/CuriousJr101/ICP2017F/tree/master/Exam/):** This directory contains all my quiz submissions, each of which is a folder properly names with quiz number, containing the quiz submission.
 
-* ![**Exam:**] (https://github.com/CuriousJr101/ICP2017F/tree/master/Quiz/) This directory contains all my exam submissions, each of which is a folder properly named with exam name or number, containing the exam submission.
+* **[Exam](https://github.com/CuriousJr101/ICP2017F/tree/master/Quiz/):** This directory contains all my exam submissions, each of which is a folder properly named with exam name or number, containing the exam submission.
 
 
 For questions and troubleshooting, please contact:

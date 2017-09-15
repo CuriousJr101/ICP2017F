@@ -207,6 +207,9 @@ T).
     5). Command: git push origin :test1 || Output:  To https://github.com/CuriousJr101/ICP2017F.git
                                                     - [deleted]         test1
 
+Bonus 1:
+3). https://curiousjr101.github.io/ICP2017F/.
+
 
 
 
