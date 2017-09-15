@@ -1,4 +1,5 @@
 A).
+    
     1). Command: git branch test1 || Output: -
 
     2). Command: git branch test2 || Output: -
@@ -11,7 +12,7 @@ B).
 
     3). Command: vim test.txt || Output: -
 
-D). 
+D).
 
 	1). Command: git add . || Output: -
 
