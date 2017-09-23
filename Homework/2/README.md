@@ -131,3 +131,234 @@ This command constructs a 1x4 cell array, for the variable h, in which each cell
 ```
 
 This command, the **whos** function, lists the variables d, e, f, g, and h with their array size, the number of bytes, the class, and any attributes.
+
+2).
+
+If we attempt to type cast an integer that is not within the range of the type of integer that we are using, then it will limit the value to either one of the extremes of the integer type.
+
+```MATLAB
+>>> i = int8(600)
+
+i =
+
+  int8
+
+   127
+```
+
+The number will either become the largest value of the specific type of integer, if its larger, or the smallest value of that integer, if the number is smaller.
+
+```MATLAB
+>> intmin('int16')
+
+ans =
+
+  int16
+
+   -32768
+
+>> intmax('int16')
+
+ans =
+
+  int16
+
+   32767
+```
+
+```MATLAB
+>> intmin
+
+ans =
+
+  int32
+
+   -2147483648
+
+>> intmax
+
+ans =
+
+  int32
+
+   2147483647
+```
+
+3).
+
+```MATLAB
+>> 1/2
+
+ans =
+
+    0.5000
+```
+
+The quotient of "1 divided by 2" is a double 0.5000.
+
+```MATLAB
+>> 1\2
+
+ans =
+
+     2
+```
+
+The quotient of "2 divided by 1" is a double 2. The backward slash rotates the fraction that is types so that the denominator is in the numerator and vice versa.
+
+```MATLAB
+>> int8(1/2)
+
+ans =
+
+  int8
+
+   1
+```
+
+The quotient of "1 divided by 2" is a double 0.5000, but because we are type casting the number into a type of integer, the number gets rounded up or down based on rounding rules. Therefore, because 0.5000 rounds up to 1, we get an int8 value of 1.
+
+```MATLAB
+>> int8(1/3)
+
+ans =
+
+  int8
+
+   0
+```
+
+The quotient of "1 divided by 3" is a double 0.333, but because we are type casting the number into a type of integer, the number gets rounded up or down based on rounding rules. Therefore, because 0.333 rounds down to 0, we get an int8 value of 0.
+
+```MATLAB
+>> -5^2
+
+ans =
+
+   -25
+```
+
+This expression can be thought of as -1 * 5^2. Based of PEMDAS rules, the exponent gets evaluated first. Then the answer is negated because of the -1, giving us the answer of -25.
+
+```MATLAB
+>> (-5)^2
+
+ans =
+
+    25
+```
+
+Here, we are raising the value of -5 to the power of two rather than just 5, as in the previous question. Ultimately, two negtives make a positive and 5^2 is 25. Therefore, with all of those in mind, we get the answer of 25.
+
+```MATLAB
+>> 10-6/2
+
+ans =
+
+     7
+```
+
+MATLAB follows the rules of PEMDAS. The program first finds the quotient of "6 divided by 2" (which is 3), then subtracts that from 10. This gives 
+us the answer of 7.
+
+```MATLAB
+>> 5*4/2*3
+
+ans =
+
+    30
+```
+
+MATLAB, once again, follows the rules of PEMDAS. Since multiplication and division are at the "same level", whichever operations comes first, the program will execute. Here, the computer finds the product of "5 times 4" (20) then divides that with 2 (10) and finally multiplies 3 to the quotient, giving us a final answer of 30.
+
+4). B:
+
+```MATLAB
+>> a + b
+
+ans =
+
+     0     2
+     2     2
+```
+
+Each element in matrix *A* is added to the corresponding element in matrix *B*. 
+
+```MATLAB
+>> a .* b
+
+ans =
+
+    -1     0
+     0     1
+```
+
+Each element in matrix *A* is multiplied to the corresponding element in matrix *B*.
+
+```MATLAB
+>> a * b
+
+ans =
+
+    -1     2
+    -2     5
+```
+
+The program multiplies matrix *A* with matrix *B*. A row of matrix *A* is multplied with all the columns of matrix *B*. The sum of the multipication of each element in the row and column yields an elemental value. Then the program moves onto the next row and multiplies it with all of the columns. It continues this till it gets through all of the rows.
+
+```MATLAB
+>> a * c
+
+ans =
+
+     3
+     8
+```
+
+The program multiplies matrix *A* with matrix *C*. Each element in the row and each corresponding element in the column is mutiplied together. The summation of the products yields an element for the new matrix *AC*.
+
+```MATLAB
+>> a + c
+
+ans =
+
+     4     3
+     4     3
+```
+
+The program does element-wise addition between matrix *A* and matrix *C*.
+
+```MATLAB
+>> a + d
+
+ans =
+
+     6     5
+     7     6
+```
+
+The program added the scaler value (d) with each element in matrix *A*.
+
+```MATLAB
+>> a .* d
+
+ans =
+
+     5     0
+    10     5
+```
+
+Each element in matrix *A* is multiplied by the 1x1 matrix *D* which has the value of 5.
+
+```MATLAB
+>> a * d
+
+ans =
+
+     5     0
+    10     5
+```
+
+Each element in matrix *A* is multiplied by the scaler value of *D*.
+
+5).
