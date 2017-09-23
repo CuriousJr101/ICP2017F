@@ -361,4 +361,52 @@ ans =
 
 Each element in matrix *A* is multiplied by the scaler value of *D*.
 
-5).
+5). Three different methods for producing matrix *A*:
+
+```MATLAB
+>> a
+
+a =
+
+     2     0     0
+     0     2     0
+     0     0     2
+```
+
+Method 1: Diag function
+
+```MATLAB
+>> diag([2 2 2])
+
+ans =
+
+     2     0     0
+     0     2     0
+     0     0     2
+```
+
+Method 2: Eye function
+
+```MATLAB
+>> 2 * eye(3)
+
+ans =
+
+     2     0     0
+     0     2     0
+     0     0     2
+```
+
+Method 3: Zeros function
+
+```MATLAB
+>> zeros(3) + [2 0 0; 0 2 0; 0 0 2]
+
+ans =
+
+     2     0     0
+     0     2     0
+     0     0     2
+```
+
+6).
