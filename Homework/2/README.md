@@ -10,6 +10,8 @@ a =
 
 This command creates a 1x1 double array variable, *a*, that has a value of 1 and is added to the workspace.
 
+---------------------------------------------------------------------------
+
 ```MATLAB
 >> b = 'x'
 
@@ -19,6 +21,8 @@ b =
 ```
 
 This command creates a 1x1 character array variable, *b*, that is the character 'x' and is added to the workspace.
+
+---------------------------------------------------------------------------
 
 ```MATLAB
 >> c = true
@@ -32,6 +36,8 @@ c =
 
 This command creates a 1x1 boolean (logical) array variable, *c*, that has a logical value of 1 (true is shorthand for the logical value 1) and is added to the workspace.
 
+---------------------------------------------------------------------------
+
 ```MATLAB
 >> whos a b c
   Name      Size            Bytes  Class      Attributes
@@ -42,6 +48,8 @@ This command creates a 1x1 boolean (logical) array variable, *c*, that has a log
 ```
 
 This command , the **whos** function, lists the variables a, b, and c with their array size, the number of bytes, the class, and any attributes.
+
+---------------------------------------------------------------------------
 
 ```MATLAB
 >> a == c
@@ -55,6 +63,8 @@ ans =
 
 The command determines whether a has the same value as c. Since both a and c (logical 1 = 1) are equal to one, the function returns true. Since the value wasn't assigned to a variable, the default variable *ans* (which became a logical variable) is added to the workspace with the value of logical 1.
 
+---------------------------------------------------------------------------
+
 ```MATLAB
 >> a + c
 
@@ -64,6 +74,8 @@ ans =
 ```
 
 The command finds the sum of a and c. Since there is no variable that's being assigned the value of the summation, the default variable *ans* is given the double value of 2 (a = 1 and c = 1). Since there was a previous *ans* in the workspace, it rewrites the value of the variable.
+
+---------------------------------------------------------------------------
 
 ```MATLAB
 >> d = [1 2 3 4]
@@ -75,6 +87,8 @@ d =
 
 This commands constructs a 1x4 double array, for the variable *d*, and is added to the workspace. The array is a four-element vector.
 
+---------------------------------------------------------------------------
+
 ```MATLAB
 >> e = ['a' 'b' 'c' 'd']
 
@@ -85,6 +99,8 @@ e =
 
 This commands constructs a 1x4 char array, for the variable *e*, and is added to the workspace. In the output the characters are concatenated because the characters are in square brackets. This is the first way of creating a char array.
 
+---------------------------------------------------------------------------
+
 ```MATLAB
 >> f = ['abcd']
 
@@ -93,7 +109,9 @@ f =
     'abcd'
 ```
 
-This commands constructs a 1x4 char array, for the variable *f*, and is added to the workspace. This is the second way of creating a char array. 
+This commands constructs a 1x4 char array, for the variable *f*, and is added to the workspace. This is the second way of creating a char array.
+
+--------------------------------------------------------------------------- 
 
 ```MATLAB
 >> g = {"a" "b" "c" "d"}
@@ -107,6 +125,8 @@ g =
 
 This command constructs a 1x4 cell array, for the variable g, in which each cell has a single string letter.
 
+---------------------------------------------------------------------------
+
 ```MATLAB
 >> h = {a b c d}
 
@@ -118,6 +138,8 @@ h =
 ```
 
 This command constructs a 1x4 cell array, for the variable h, in which each cell is equal to the value associated with each variable, that was defined previously.
+
+---------------------------------------------------------------------------
 
 ```MATLAB
 >> whos d e f g h 
@@ -131,6 +153,8 @@ This command constructs a 1x4 cell array, for the variable h, in which each cell
 ```
 
 This command, the **whos** function, lists the variables d, e, f, g, and h with their array size, the number of bytes, the class, and any attributes.
+
+===========================================================================
 
 2).
 
@@ -184,6 +208,8 @@ ans =
    2147483647
 ```
 
+===========================================================================
+
 3).
 
 ```MATLAB
@@ -196,6 +222,8 @@ ans =
 
 The quotient of "1 divided by 2" is a double 0.5000. Both of the numbers are predefined as doubles.
 
+---------------------------------------------------------------------------
+
 ```MATLAB
 >> 1\2
 
@@ -205,6 +233,8 @@ ans =
 ```
 
 The quotient of "2 divided by 1" is a double 2. The backward slash rotates the fraction so that the denominator is in the numerator and vice versa.
+
+---------------------------------------------------------------------------
 
 ```MATLAB
 >> int8(1/2)
@@ -218,6 +248,8 @@ ans =
 
 The quotient of "1 divided by 2" is a double 0.5000, but because we are type casting the number into a type of integer, the number gets rounded up or down based on rounding rules. Therefore, because 0.5000 rounds up to 1, we get an int8 value of 1.
 
+---------------------------------------------------------------------------
+
 ```MATLAB
 >> int8(1/3)
 
@@ -230,6 +262,8 @@ ans =
 
 The quotient of "1 divided by 3" is a double 0.333, but because we are type casting the number into a type of integer, the number gets rounded up or down based on rounding rules. Therefore, because 0.333 rounds down to 0, we get an int8 value of 0.
 
+---------------------------------------------------------------------------
+
 ```MATLAB
 >> -5^2
 
@@ -240,6 +274,8 @@ ans =
 
 This expression can be thought of as -1 * 5^2. Based on PEMDAS rules, the exponent gets evaluated first. Then the answer is negated because of the -1, giving us the answer of -25.
 
+---------------------------------------------------------------------------
+
 ```MATLAB
 >> (-5)^2
 
@@ -249,6 +285,8 @@ ans =
 ```
 
 Here, we are raising the value of -5 to the power of two rather than just 5, as in the previous question. Multiplying two negtives make a positive and 5^2 is 25. Therefore we get the answer of 25.
+
+---------------------------------------------------------------------------
 
 ```MATLAB
 >> 10-6/2
@@ -261,6 +299,8 @@ ans =
 MATLAB follows the rules of PEMDAS. The program first finds the quotient of "6 divided by 2" (which is 3), then subtracts that from 10. This gives 
 us the answer of 7.
 
+---------------------------------------------------------------------------
+
 ```MATLAB
 >> 5*4/2*3
 
@@ -270,6 +310,8 @@ ans =
 ```
 
 MATLAB, once again, follows the rules of PEMDAS. Since multiplication and division are on the "same level", whichever operations comes first, the program will execute. Here, the computer finds the product of "5 times 4" (20) then divides that with 2 (10) and finally multiplies 3 to the quotient, giving us a final answer of 30.
+
+===========================================================================
 
 4). 
 
@@ -286,6 +328,8 @@ ans =
 
 Each element in matrix *a* is added to the corresponding element in matrix *b*. 
 
+---------------------------------------------------------------------------
+
 ```MATLAB
 >> a .* b
 
@@ -296,6 +340,7 @@ ans =
 ```
 
 Each element in matrix *a* is multiplied to the corresponding element in matrix *b*.
+---------------------------------------------------------------------------
 
 ```MATLAB
 >> a * b
@@ -307,6 +352,7 @@ ans =
 ```
 
 The program goes through matrix multiplication of *a* and *b* to give us a new matrix *ab*.
+---------------------------------------------------------------------------
 
 ```MATLAB
 >> a * c
