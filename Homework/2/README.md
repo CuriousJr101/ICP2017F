@@ -340,6 +340,7 @@ ans =
 ```
 
 Each element in matrix *a* is multiplied to the corresponding element in matrix *b*.
+
 ---------------------------------------------------------------------------
 
 ```MATLAB
@@ -352,6 +353,7 @@ ans =
 ```
 
 The program goes through matrix multiplication of *a* and *b* to give us a new matrix *ab*.
+
 ---------------------------------------------------------------------------
 
 ```MATLAB
@@ -365,6 +367,8 @@ ans =
 
 The program goes through matrix multiplication of *a* and *c* to give us a new matrix *ac*.
 
+---------------------------------------------------------------------------
+
 ```MATLAB
 >> a + c
 
@@ -375,6 +379,8 @@ ans =
 ```
 
 The program does element-wise addition with matrix *a* and matrix *c*.
+
+---------------------------------------------------------------------------
 
 ```MATLAB
 >> a + d
@@ -387,6 +393,8 @@ ans =
 
 The program added the scaler value (d) to each element in matrix *a*.
 
+---------------------------------------------------------------------------
+
 ```MATLAB
 >> a .* d
 
@@ -398,6 +406,8 @@ ans =
 
 Each element in matrix *a* is multiplied by the 1x1 matrix *d* which has the value of 5.
 
+---------------------------------------------------------------------------
+
 ```MATLAB
 >> a * d
 
@@ -408,6 +418,8 @@ ans =
 ```
 
 Each element in matrix *a* is multiplied by the scaler value of *d*.
+
+===========================================================================
 
 5). Three different methods for producing matrix *a*:
 
@@ -457,6 +469,8 @@ ans =
      0     0     2
 ```
 
+===========================================================================
+
 6). Persian is an array while Spanish is a cell array. In order for the output to be *Persian is not the same as Spanish*, we need to partition each of the arrays. 
 
 For Persian, in order to get the string *Persian*, we partition the character array using parenthesis, with the range from 1-7 since the string is a concatination of characters (we need all 7 characters).
@@ -465,8 +479,11 @@ For Spanish, in order to get the string *Spanish*, we partition the cell array w
 
 Altogether, we get characters through the two methods mentioned above and when we add these variables into the display method, we get the proper output.
 
+===========================================================================
 
 7). When running myscript in the command window, the program graphs the function ( abs(sin(x)) ) in a new separate window. The x-axis goes from -8 to 8 and the y-axis goes from 0 to 1. The graph of the abs(sin(x)) peaks 4 times.
+
+===========================================================================
 
 8). When you attempt to run myscript.m from another directory, you get an error:
 
