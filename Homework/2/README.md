@@ -154,7 +154,7 @@ This command constructs a 1x4 cell array, for the variable h, in which each cell
 
 This command, the **whos** function, lists the variables d, e, f, g, and h with their array size, the number of bytes, the class, and any attributes.
 
-===================================================================================
+====================================================================================
 
 2).
 
