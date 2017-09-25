@@ -208,7 +208,7 @@ ans =
    2147483647
 ```
 
-===========================================================================
+===================================================================================
 
 3).
 
@@ -311,7 +311,7 @@ ans =
 
 MATLAB, once again, follows the rules of PEMDAS. Since multiplication and division are on the "same level", whichever operations comes first, the program will execute. Here, the computer finds the product of "5 times 4" (20) then divides that with 2 (10) and finally multiplies 3 to the quotient, giving us a final answer of 30.
 
-===========================================================================
+===================================================================================
 
 4). 
 
@@ -419,7 +419,7 @@ ans =
 
 Each element in matrix *a* is multiplied by the scaler value of *d*.
 
-===========================================================================
+===================================================================================
 
 5). Three different methods for producing matrix *a*:
 
@@ -469,7 +469,7 @@ ans =
      0     0     2
 ```
 
-===========================================================================
+===================================================================================
 
 6). Persian is an array while Spanish is a cell array. In order for the output to be *Persian is not the same as Spanish*, we need to partition each of the arrays. 
 
@@ -479,11 +479,11 @@ For Spanish, in order to get the string *Spanish*, we partition the cell array w
 
 Altogether, we get characters through the two methods mentioned above and when we add these variables into the display method, we get the proper output.
 
-===========================================================================
+===================================================================================
 
 7). When running myscript in the command window, the program graphs the function ( abs(sin(x)) ) in a new separate window. The x-axis goes from -8 to 8 and the y-axis goes from 0 to 1. The graph of the abs(sin(x)) peaks 4 times.
 
-===========================================================================
+===================================================================================
 
 8). When you attempt to run myscript.m from another directory, you get an error:
 
