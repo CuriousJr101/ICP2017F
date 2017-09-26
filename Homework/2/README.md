@@ -114,13 +114,13 @@ This commands constructs a 1x4 char array, for the variable *f*, and is added to
 --------------------------------------------------------------------------- 
 
 ```MATLAB
->> g = {"a" "b" "c" "d"}
+>> g = {'a' 'b' 'c' 'd'}
 
 g =
 
   1×4 cell array
 
-    ["a"]    ["b"]    ["c"]    ["d"]
+    'a'    'b'    'c'    'd'
 ```
 
 This command constructs a 1x4 cell array, for the variable g, in which each cell has a single string letter.
