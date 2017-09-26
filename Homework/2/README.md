@@ -123,7 +123,7 @@ g =
     'a'    'b'    'c'    'd'
 ```
 
-This command constructs a 1x4 cell array, for the variable g, in which each cell has a single string letter.
+This command constructs a 1x4 cell array, for the variable g, in which each cell has a single character.
 
 ---------------------------------------------------------------------------
 
