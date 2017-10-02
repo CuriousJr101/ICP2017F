@@ -70,9 +70,10 @@ The dollar sign after the 120 makes the varible have an invalid value.
 The character is appended to the double which breaks the syntax rule for a
 double.
 %}
-and = 4578;
+and = 'duck';
 %{
-duck is an undefined variable and therefore and is undefined.
+duck is an undefined variable and therefore and is undefined. Therefore, you make it a concatination of
+characters
 %}
 class = 'INF1100, gr 2';
 %{
