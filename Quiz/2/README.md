@@ -1,40 +1,40 @@
 1).
 
-(A) - Assembly
+(A) Assembly
 
-(B) - No
+(B) No
 
 ------------
 
 2). 
 
-(A) - Fortran
+(A) Fortran
 
-(B) - 1980s
+(B) 1980s
 
 ---
 
 3).
 
-(A) - Assembly
+(A) Assembly
 
-(B) - Third Generation
-
----
-
-4). - 1990s
+(B) Third Generation
 
 ---
 
-5). - Assembly
+4). 1990s
 
 ---
 
-6). - C
+5). Assembly
 
 ---
 
-7). - Fortran and C++ 
+6). C
+
+---
+
+7). Fortran and C++ 
 
 ---
 
@@ -49,24 +49,16 @@ c{1, 2} = 'This is a text string';
 
 ---
 
-9).
-
-c{2} gives you the contents [3+4i, -5; 10i, 3-4i, '']. This is becasue Matlab stores data column-wise.
+9). c{2} gives you the contents [3+4i, -5; 10i, 3-4i, '']. This is becasue Matlab stores data column-wise.
 
 ---
 
-10).
-
-Matlab stores information column-wise. This means that the the values within a column are adjecent to each other in a memory block on the computer. When Matlab has to render a matrix or cell array, the program pulls information column-wise, building the matrix/cell array top to bottom. Matlab does this because it inherited this from its predeccessor program Fortran.
+10). Matlab stores information column-wise. This means that the the values within a column are adjecent to each other in a memory block on the computer. When Matlab has to render a matrix or cell array, the program pulls information column-wise, building the matrix/cell array top to bottom. Matlab does this because it inherited this from its predeccessor program Fortran.
 
 ---
 
-11).
-
-8 bytes
+11). 8 bytes
 
 ---
 
-12).
-
-The new number will the largest value that int32 can be.
+12). The new number will the largest value that int32 can be.
