@@ -1,16 +1,16 @@
 1).
 
-(A) Assembly
+	(A) Assembly
 
-(B) No
+	(B) No
 
 ------------
 
 2). 
 
-(A) Fortran
+	(A) Fortran
 
-(B) 1980s
+	(B) 1980s
 
 ---
 
