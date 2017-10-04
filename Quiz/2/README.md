@@ -10,15 +10,15 @@
 
 	(A) Fortran
 
-	(B) 1980s
+	(B) 42
 
 ---
 
 3).
 
-(A) Assembly
+	(A) Assembly
 
-(B) Third Generation
+	(B) Third Generation
 
 ---
 
