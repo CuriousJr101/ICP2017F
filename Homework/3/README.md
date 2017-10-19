@@ -154,3 +154,61 @@ Please enter a non-negative integer or type stop: stop
 Closing script
 ```
 
+6).
+
+The input is supposed to be a 1x3 cell array that has a nest 1x2 array, as the x and y coordinate pair, in each index of the cell array.
+
+Example: **{[3,4], [-5,0], [8,10]}**
+
+```MATLAB
+>> triangleArea({[1,2],[-3,4],[2,6]})
+
+ans =
+
+     9
+```
+
+
+7).
+
+```MATLAB
+>> isPrime(23)
+
+ans =
+
+  logical
+
+   1
+
+>> isPrime(12)
+
+ans =
+
+  logical
+
+   0
+
+>> isPrime(199)
+
+ans =
+
+  logical
+
+   1
+
+>> isPrime(12453)
+
+ans =
+
+  logical
+
+   0
+
+>> isPrime(49)
+
+ans =
+
+  logical
+
+   0
+```
