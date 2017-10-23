@@ -198,3 +198,19 @@ integralAns =
 Test:
 
 ```MATLAB
+>> integralAns(1, 2, 4)
+
+ans =
+
+    9.3333
+```
+
+9).
+
+```MATLAB
+>>>getFrac(3)
+
+ans =
+
+	6
+```
