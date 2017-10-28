@@ -126,30 +126,44 @@ ans =
 
 ```MATLAB
 >> fib
-Please enter a non-negative integer or type stop: -123
-The input argument is not a non-negative integer! Try again
-Please enter a non-negative integer or type stop: 342.673
-The input argument is not a non-negative integer! Try again
-Please enter a non-negative integer or type stop: asefas
+Please enter a non-negative integer or type stop: sadfasdf
 The input argument is not a non-negative integer! Try again
 Please enter a non-negative integer or type stop: 
 The input argument is not a non-negative integer! Try again
-Please enter a non-negative integer or type stop: 1a2
+Please enter a non-negative integer or type stop: -123
 The input argument is not a non-negative integer! Try again
-Please enter a non-negative integer or type stop: a3
+Please enter a non-negative integer or type stop: 1.234
 The input argument is not a non-negative integer! Try again
+Please enter a non-negative integer or type stop: 1213sad
+The input argument is not a non-negative integer! Try again
+Please enter a non-negative integer or type stop: 0
+fib(0) = 0
+Please enter a non-negative integer or type stop: 1
+fib(1) = 1
 Please enter a non-negative integer or type stop: 2
-1
+fib(2) = 1
+Please enter a non-negative integer or type stop: 3
+fib(3) = 2
 Please enter a non-negative integer or type stop: 4
-3
+fib(4) = 3
 Please enter a non-negative integer or type stop: 5
-5
+fib(5) = 5
+Please enter a non-negative integer or type stop: 6
+fib(6) = 8
 Please enter a non-negative integer or type stop: 7
-13
-Please enter a non-negative integer or type stop: 20
-6765
-Please enter a non-negative integer or type stop: 100
-3.54224848179262e+20
+fib(7) = 13
+Please enter a non-negative integer or type stop: 8
+fib(8) = 21
+Please enter a non-negative integer or type stop: 9
+fib(9) = 34
+Please enter a non-negative integer or type stop: 10
+fib(10) = 55
+Please enter a non-negative integer or type stop: 11
+fib(11) = 89
+Please enter a non-negative integer or type stop: 22
+fib(22) = 17711
+Please enter a non-negative integer or type stop: 32
+fib(32) = 2178309
 Please enter a non-negative integer or type stop: stop
 Closing script
 ```
