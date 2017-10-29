@@ -226,3 +226,35 @@ ans =
 
    0
 ```
+
+8). 
+
+```MATLAB
+>> h1 = genFunc(1, 2, 0)
+
+h1 =
+
+  function_handle with value:
+
+    @(x)(a(1)*x^2+a(2)*x+a(3))
+
+>> h2 = genFunc(1, 2)
+
+h2 =
+
+  function_handle with value:
+
+    @(x)(a(1)*x^2+a(2)*x+a(3))
+
+>> h1(12)
+
+ans =
+
+   168
+
+>> h2(12)
+
+ans =
+
+   168
+```
