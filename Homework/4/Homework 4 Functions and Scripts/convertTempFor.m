@@ -1,5 +1,5 @@
 function temps = convertTempFor(inputArray, str)
-    temps = zeros(1, length(inputArray));
+    temps = zeros(1, length(inputArray)); %so that memeory is already allocated
     a = 1;
     % a is to help iterate through the temps array
     if(isequal(str, 'F2C'))

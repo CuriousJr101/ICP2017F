@@ -1,5 +1,6 @@
-function fibLoop()
-
+function fibLoopExtraCredit()
+    warning('off');
+    
     n = input('Please enter a non-negative integer or type stop: ','s');
     if strcmp(n,'stop')
         return
@@ -23,14 +24,16 @@ function fibLoop()
         elseif n_int == 1
             fib = 1;
         else
-            num1 = 0;
-            num2 = 1;
-            for l = 1:n_int
-                temp = num1;
-                num1 = num2;
-                num2 = temp + num2;
+            %creates a n + 1 sized array in which we can have all the
+            %values of the the fib sequence and then we can just output the
+            %last value of the array
+            fibArray = zeros(n_int + 1, 1);
+            fibArray(1) = 0;
+            fibArray(2) = 1;
+            for l = 3:n_int + 1
+                fibArray(l) = fibArray(l-1) + fibArray(l-2);
             end
-            fib = num1;
+            fib = fibArray(n_int + 1);
         end
     end
 

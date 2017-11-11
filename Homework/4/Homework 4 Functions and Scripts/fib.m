@@ -8,6 +8,8 @@ function fib()
         if isreal(n)
             if n>=0 && round(n)==n
                 disp([char(9), 'fib(',num2str(n),') = ',num2str(getFib(n))]);
+                %code below is the addition to the script to get the time
+                %it takes to execute the command
                 disp([char(9), 'average runtime: ', num2str(timeit(@() getFib(n))), ' seconds']);
                 fib()
                 return
@@ -23,6 +25,7 @@ function fib()
         elseif n_int == 1
             fib = 1;
         else
+            %recursion
             fib = getFib(n_int-1) + getFib(n_int-2);
         end
     end

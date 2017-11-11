@@ -1,5 +1,5 @@
 function temps = convertTempWhile(inputArray, str)
-    temps = zeros(1, length(inputArray));
+    temps = zeros(1, length(inputArray)); %so that memory is already allocated
     n = 1;
     % n is going to count each of the indices in inputArray
     if(isequal(str, 'F2C'))

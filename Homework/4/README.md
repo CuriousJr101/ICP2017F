@@ -210,3 +210,19 @@ The input argument is not a non-negative integer!
 B). 
 
 The files are in the repository
+
+---
+
+Extra Credit:
+
+```Please enter a non-negative integer or type stop: 12
+	fib(12) = 144
+	average runtime: 3.1793e-06 seconds
+Please enter a non-negative integer or type stop: 10
+	fib(10) = 55
+	average runtime: 1.1413e-05 seconds
+Please enter a non-negative integer or type stop: 6
+	fib(6) = 8
+	average runtime: 3.0085e-06 seconds
+Please enter a non-negative integer or type stop: stop
+```
