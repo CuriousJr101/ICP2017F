@@ -53,3 +53,6 @@ average runtime for getFacFor(1700000): 0.0051902 seconds
 average runtime for getFacVec(1700000): 0.0075677 seconds
 ```
 
+Extra Credit
+
+I created a vector of 1s with the size of the factorial of n.
