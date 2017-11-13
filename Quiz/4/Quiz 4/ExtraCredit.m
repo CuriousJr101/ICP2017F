@@ -3,5 +3,6 @@ function ans = ExtraCredit(n)
         ans = 1;
     else
         ans = sum(ones(prod(1:1:n), 1));
+    end
 
 end
