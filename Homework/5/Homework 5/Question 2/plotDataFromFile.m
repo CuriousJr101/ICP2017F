@@ -23,6 +23,6 @@ xlabel('Fluence [ergs/cm^2]', 'fontsize', 13);
 ylabel('Epeak', 'fontsize', 13);
 set(gca, 'linewidth', 3);
 set(gca, 'yTick', y_label_locations, 'xTick',x_label_locations, 'YScale', 'log', 'XScale', 'log', 'linewidth', 3);
-saveas(gca, '650 Swift GRB Events.fig')
+saveas(gca, '650 Swift GRB Events.png')
 
 disp(['Number of files used: ' num2str(counter)])

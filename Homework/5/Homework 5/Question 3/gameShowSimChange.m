@@ -23,4 +23,4 @@ for n = 1:nExperiments
 end
 plot(x,y);
 disp(['Probability: ' num2str(counter/nExperiments)])
-saveas(gca, 'Changing Doors.fig');
+saveas(gca, 'Changing Doors.png');
