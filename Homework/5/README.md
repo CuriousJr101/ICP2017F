@@ -20,3 +20,16 @@ Probability: 0.672
 Probability: 0.6625
 ```
 
+4).
+
+```MATLAB
+>> PIApproximation
+Enter the number of points you want to use: 10000
+The value of PI is approximated to : 3.174
+>> PIApproximation
+Enter the number of points you want to use: 1000000
+The value of PI is approximated to : 3.143
+>> PIApproximation
+Enter the number of points you want to use: 9000000
+The value of PI is approximated to : 3.1415
+```
