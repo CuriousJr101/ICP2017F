@@ -8,8 +8,9 @@ for i = 2:length(Table)-1
     GrowthRate(i - 1) = str2double(cell{1, 5});
 end
 
-plot(nVals, GrowthRate, 'red')
+plot(nVals, GrowthRate, 'red', 'linewidth', 3);
 xlabel('Sample Number');
 ylabel('Growth Rate');
-set(gca, 'XScale', 'log', 'linewidth);
+set(gca, 'XScale', 'log');
+saveas(gcf, 'GrowthRate.png');
 
