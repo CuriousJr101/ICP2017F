@@ -5,5 +5,7 @@ function output = robustWebRead(s)
         output = webread(s);
     catch
         output = [];
+        disp('Reading data from the web address...')
+        disp('Warning: The requested web address does not exist! Gracefully exiting...')
     end
 end
