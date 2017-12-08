@@ -2,8 +2,6 @@
 
 # Plotting the Subplots in a Single Figure
 
----
-
 ```MATLAB
 clear all;
 close all;
@@ -101,7 +99,9 @@ saveas(gcf, 'subPlots of Rat Brain.png');
 
 # Plot
 
-![ScreenShot](subPlot_of_Rat's_Brain.png)
+![ScreenShot](ICP2017F/Homework/6/Homework-6/subPlots_of_Rat_Brain_with_Boundaries.png)
+
+---
 
 ---
 
@@ -109,8 +109,6 @@ saveas(gcf, 'subPlots of Rat Brain.png');
 2).
 
 # Drawing Boundaries Around the Tumor Cells
-
----
 
 ```MATLAB
 clear all;
@@ -218,6 +216,8 @@ saveas(gcf, 'subPlots_of_Rat_Brain_with_Boundaries.png');
 ```
 
 # Plot with Boundaries
+
+---
 
 ---
 
