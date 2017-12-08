@@ -99,7 +99,7 @@ saveas(gcf, 'subPlots of Rat Brain.png');
 
 # Plot
 
-![ScreenShot](ICP2017F/Homework/6/Homework-6/subPlots_of_Rat_Brain_with_Boundaries.png)
+![Plot Image](https://github.com/CuriousJr101/ICP2017F/blob/master/Homework/6/Homework%206/subPlots_of_Rat_Brain.png)
 
 ---
 
@@ -216,6 +216,8 @@ saveas(gcf, 'subPlots_of_Rat_Brain_with_Boundaries.png');
 ```
 
 # Plot with Boundaries
+
+![Plot Image](https://github.com/CuriousJr101/ICP2017F/blob/master/Homework/6/Homework%206/subPlots_of_Rat_Brain_with_Boundaries.png)
 
 ---
 
