@@ -1,6 +1,6 @@
-1).
+1). 
 
-<title>Plotting the Subplots in a Single Figure</title>
+#Plotting the Subplots in a Single Figure
 
 ```MATLAB
 clear all;
@@ -106,7 +106,8 @@ saveas(gcf, 'subPlots of Rat Brain.png');
 
 ```
 
-<title>Plot</title>
+#Plot
+
 ---
 
 **Photo:** ![Rhythem Sharma](https://github.com/CuriousJr101/ICP2017F/Homework/6/subPlots of Rat's Brain.png/)
