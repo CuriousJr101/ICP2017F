@@ -90,15 +90,6 @@ for row = numRows:-1:1
         elseif(column ~= 1 && row == 1)
             yticks([]);
         end
-        
-        %drawing the boundaries
-        BW = imbinarize(data(:, :, imageSlice));
-        B = bwboundaries(BW, 'noholes');
-        for n = 1:length(B)
-            boundary = B{n};
-            plot(boundary(:, 2), boundary(:, 1), 'r', 'linewidth', 4);
-            hold on;
-        end
     end
 end
 
@@ -110,4 +101,4 @@ saveas(gcf, 'subPlots of Rat Brain.png');
 
 ---
 
-**Photo:** ![Rhythem Sharma](https://github.com/CuriousJr101/ICP2017F/Homework/6/subPlots of Rat's Brain.png/)
+![ScreenShot](Homework 6/subPlot_of_Rat's_Brain.png)

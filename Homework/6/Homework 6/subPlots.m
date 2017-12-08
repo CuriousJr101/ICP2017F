@@ -75,7 +75,7 @@ for row = numRows:-1:1
                                     ]);
                                 
         imagesc(data(:, :, imageSlice), colorBarLimits);
-        hold on; %so that when I plot the boundary, the image stays
+        hold on;
         title(['Z = ' num2str(imageSlice)]);
         if(column ~= 1 && row ~= 1)
             xticks([]);
@@ -85,19 +85,8 @@ for row = numRows:-1:1
         elseif(column ~= 1 && row == 1)
             yticks([]);
         end
-        
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-        %drawing the boundaries
-        BW = imbinarize(data(:, :, imageSlice));
-        B = bwboundaries(BW, 'noholes');
-        for n = 1:length(B)
-            boundary = B{n};
-            plot(boundary(:, 2), boundary(:, 1), 'r', 'linewidth', 4);
-            hold on;
-        end
     end
 end
 
-saveas(gcf, 'subPlots of Rat Brain with Boundaries.png');
+saveas(gcf, 'subPlots_of_Rat_Brain.png');
         
