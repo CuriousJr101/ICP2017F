@@ -16,8 +16,6 @@
 
 **Course Webpage:** http://www.shahmoradi.org/ICP2017F/
 
-**Photo:** ![Rhythem Sharma](https://github.com/CuriousJr101/ICP2017F/blob/master/Rhythem%20Sharma.jpg)
-
 # Description of the project's content
 
 This repository contains my homework, quizzes, and virtually ever effort I have made for [ICP2017F class](http://www.shahmoradi.org/ICP2017F/). The structure of the project is the following:
